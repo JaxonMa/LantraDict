@@ -1,0 +1,73 @@
+.menu-bar {
+    background-color: #06436f;
+    display: flex;
+
+    align-items: center;
+    justify-content: space-between;
+}
+
+/* 搜索框部分 - 开始 */
+
+@keyframes search-bar-hover-animation {
+    from {
+        width: 100%;
+        border-radius: 5px;
+    }
+
+    to {
+        width: 140%;
+        border-radius: 20px;
+    }
+}
+
+@keyframes search-bar-not-hover-animation {
+    from {
+        width: 140%;
+        border-radius: 20px;
+    }
+
+    to {
+        width: 100%;
+        border-radius: 5px;
+    }
+}
+
+.search-line {
+    margin: 10px;
+
+    border-radius: 5px;
+    border-width: 0;
+    padding: 8px;
+
+    width: 100%;
+}
+
+.search-line:hover {
+    animation-name: search-bar-hover-animation;
+    animation-duration: 0.4s;
+
+    width: 140%;
+    border-radius: 20px;
+}
+
+.search-line:not(:hover) {
+    animation-name: search-bar-not-hover-animation;
+    animation-duration: 0.4s;
+
+    border-radius: 5px;
+    width: 100%;
+}
+
+.search-line:focus {
+    outline: none;
+}
+
+/* 搜索框部分 - 结束 */
+.title {
+    margin: 0;
+    margin-right: 10px;
+
+    font-family: 'Times New Roman';
+    font-weight: lighter;
+    color: azure;
+}

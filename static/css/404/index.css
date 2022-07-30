@@ -1,0 +1,15 @@
+h1 {
+    color: #06436f;
+    text-align: center;
+}
+
+body {
+    background-color: #eaeef1;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+a {
+    text-decoration: none;
+    display: flex;
+    justify-content: space-around;
+}

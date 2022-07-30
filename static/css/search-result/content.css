@@ -1,0 +1,104 @@
+.char-info-show {
+    background-color: #aed0ee;
+    padding: 40px;
+
+    display: flex;
+    justify-content: space-between;
+}
+
+/* 字卡部分 - 开始 */
+
+.char-box {
+    margin: 0;
+    background-color: #d4e5ef;
+    border-radius: 5px;
+
+    display: flex;
+    align-items: center;
+
+    box-shadow: 5px 5px 25px #9aa7b1;
+    padding: 20px;
+}
+
+.char {
+    color: #3271ae;
+    margin: 0;
+
+    font-size: xxx-large;
+    font-weight: bolder;
+}
+
+/* 字卡部分 - 结束 */
+
+/* 汉字信息框 - 开始 */
+
+.char-info {
+    margin-left: 25px;
+
+    background-color: #eaeef1;
+    border-radius: 5px;
+
+    width: 100%;
+    box-shadow: 5px 5px 25px #9aa7b1;
+}
+
+/* 基本信息框 - 开始 */
+
+.basic-info {
+    display: flex;
+    padding-top: 10px;
+    padding-left: 10px;
+
+    align-items: center;
+    vertical-align:text-bottom;
+
+    width: auto;
+}
+
+.pinyin {
+    margin: 0;
+
+    font-weight: bold;
+    font-size: x-large;
+
+    display: inline-flex;
+}
+
+.other-info {
+    position: relative;
+
+    margin: auto;
+    color: #576470;
+}
+
+/* 基本信息框 - 结束 */
+
+hr {
+    width: 98%;
+    
+    margin: auto;
+    margin-top: 10px;
+
+    filter: opacity(0.6);
+}
+
+.bishun {
+    margin: 0;
+    margin-left: 10px;
+    text-align: left;
+
+    color: #19325f;
+}
+
+/* 汉字信息框 - 结束 */
+
+.explaination {
+    margin-left: 4%;
+    margin-right: 2%;
+    
+    line-height: 300%;
+    margin-top: 0;
+
+    font-size: large;
+    white-space: pre-line;
+}

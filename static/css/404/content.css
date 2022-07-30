@@ -1,0 +1,90 @@
+.err-msg-layer {
+    background-color: #d4dde1;
+    border-radius: 15px;
+
+    padding: 10px;
+    margin: 10%;
+    margin-top: 2%;
+
+    box-shadow: 10px 10px 10px #9aa7b1;
+}
+
+.back-to-homepage-prompt {
+    display: contents;
+    text-align: center;
+}
+
+@keyframes button-hover-animation {
+    from {
+        background-color: #aed0ee;
+        color: #12507b;
+        border-radius: 5px;
+
+        width: 40%;
+    }
+
+    to {
+        background-color: #12507b;
+        color: azure;
+        border-radius: 20px;
+
+        width: 30%;
+    }
+}
+
+@keyframes button-not-hover-animation {
+    from {
+        background-color: #12507b;
+        color: azure;
+        border-radius: 20px;
+
+        width: 30%;
+    }
+
+    to {
+        background-color: #aed0ee;
+        color: #12507b;
+        border-radius: 5px;
+
+        width: 40%;
+    }
+}
+
+.button {
+    background-color: #aed0ee;
+    color: #12507b;
+    border-radius: 5px;
+
+    padding: 1%;
+    width: 40%;
+
+    margin: auto;
+    margin-bottom: 2%;
+}
+
+.button:hover {
+    animation: button-hover-animation 0.4s;
+
+    background-color: #12507b;
+    color: azure;
+    border-radius: 20px;
+
+    width: 30%;
+}
+
+.button:not(:hover) {
+    animation: button-not-hover-animation 0.4s;
+
+    background-color: #aed0ee;
+    color: #12507b;
+    border-radius: 5px;
+
+    width: 40%;
+}
+
+.title {
+    color: #06436f;
+    
+    margin: 10%;
+    margin-bottom: 0;
+}

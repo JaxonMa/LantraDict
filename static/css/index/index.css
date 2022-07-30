@@ -1,0 +1,68 @@
+html {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    text-align: center;
+
+    background-color: #eaeef1;
+}
+
+.title {
+    color: #06436f;
+    margin-top: 20%;
+}
+
+@keyframes search-line-hover-animation {
+    from {
+        width: 25%;
+        border-radius: 10px;
+    }
+    to {
+        width: 40%;
+        border-radius: 20px;
+    }
+}
+
+@keyframes search-line-not-hover-animation {
+    from {
+        width: 40%;
+        border-radius: 20px;
+    }
+
+    to {
+        width: 25%;
+        border-radius: 10px;
+    }
+}
+
+.search-line {
+    border-radius: 10px;
+    border-width: 0;
+
+    padding: 10px;
+    align-items: center;
+    border-style: solid;
+
+    width: 25%;
+}
+
+.search-line:hover {
+    animation-name: search-line-hover-animation;
+    animation-duration: 0.4s;
+
+    width: 40%;
+    border-radius: 20px;
+}
+
+.search-line:not(:hover) {
+    animation-name: search-line-not-hover-animation;
+    animation-duration: 0.4s; 
+
+    width: 25%;
+    border-radius: 10px;
+}
+
+.search-line:focus {
+    outline: none;
+}
